@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Converter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-image: linear-gradient( 90.5deg,  rgba(152,45,255,1) 0.7%, rgba(90,241,255,1) 51.5%, rgba(65,239,164,1) 100.6% );
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background-color: #ffffff;
+            border-radius: 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 400px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .container b {
+            font-size: 1.5em;
+            color: #333333;
+        }
+        .input-group {
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+            max-width: 400px;
+            box-sizing: border-box;
+        }
+        .input-group b {
+            font-size: 1.2em;
+            color: #333333;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .input-group input[type="radio"] {
+            margin: 5px 10px;
+        }
+        .input-group label {
+            margin-right: 10px;
+        }
+        .temperature-input {
+            width: calc(100% - 40px);
+            padding: 10px;
+            border: 1px solid #dddddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+        .textarea-container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 100%;
+            max-width: 400px;
+            box-sizing: border-box;
+        }
+        
+        .submit-button {
+            text-align: center;
+            cursor: pointer;
+            font-size: 1.2em;
+            color: #ffffff;
+            background-color: #4facfe;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 30px;
+            transition: background-color 0.3s ease;
+            width: 100%;
+            max-width: 400px;
+            box-sizing: border-box;
+        }
+        .submit-button:hover {
+            background-image: linear-gradient( 109.6deg,  rgba(102,51,153,1) 11.2%, rgba(2,0,4,1) 91.1% );
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <b>Temperature Converter</b>
+    </div>
+    <form action="TempCon" method="post">
+        <div class="input-group">
+            <b>Enter Temperature</b>
+            <input type="text" name="temp" class="temperature-input" placeholder="Enter temperature value...">
+            <div>
+                <input type="radio" name="unit" id="celsius" value="Celsius"><label for="celsius">Celsius</label>
+                <input type="radio" name="unit" id="fahrenheit" value="Fahrenheit"><label for="fahrenheit">Fahrenheit</label>
+                <input type="radio" name="unit" id="kelvin" value="Kelvin"><label for="kelvin">Kelvin</label>
+            </div>
+        </div>
+        
+        <button type="submit" class="submit-button">Submit</button>
+    </form><br> <br>
+    <footer>&copy Mokal2002 <a href="https://github.com/mokal2002"  target="_blank" title="Mokal2002">GitHub</a></footer>
+</body>
+</html>
