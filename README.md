@@ -5,8 +5,8 @@
 <span>I Created To differnt Program One is using Core Java Object Programming with Command line interface Other is Java EE Servlet Technology with dynamic Graphical User Interface Page.</span><br>
 <hr>
 <list>
-<ol>TASK Name Folder is A CLI(Command Line Interface Program)</ol>
-<ol>Temperature Converte Named Folder Is Servlet Program GUI(Graphical User Interface)/ol>
-  </list>
+<ul>TASK Name Folder is A CLI(Command Line Interface Program)</ul>
+<ul>Temperature Converte Named Folder Is Servlet Program GUI(Graphical User Interface)</ul>
+</list>
 <br>
 <button><a href="https://www.linkedin.com/posts/aniketmokal29_softwaredevelopment-internship-prodigyinfotech-activity-7220011842058743810-sCDv?utm_source=share&utm_medium=member_desktop">LinkedIn</a></button>
